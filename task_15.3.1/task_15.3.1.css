@@ -1,0 +1,11 @@
+main {
+    margin: auto;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.flags {
+    margin: 10px;
+}

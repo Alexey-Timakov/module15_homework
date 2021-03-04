@@ -1,0 +1,18 @@
+main {
+    margin: auto;
+    width: 300px;
+}
+.info {
+    margin: 5px 10px;
+}
+.info__button {
+    margin: 5px 10px;
+}
+
+.info__display-size {
+    margin: 5px 10px;
+}
+
+.info__geolocation {
+    margin: 5px 10px;
+}

@@ -1,0 +1,22 @@
+main {
+    margin: auto;
+    width: 400px;
+}
+.info {
+    margin: 5px 10px;
+}
+.info__button {
+    margin: 5px 10px;
+
+}
+.info__notification {
+    margin: 5px 10px;
+}
+
+.info__timezone {
+    margin: 5px 10px;
+}
+
+.info__date-time {
+    margin: 5px 10px;
+}

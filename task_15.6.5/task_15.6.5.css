@@ -1,0 +1,156 @@
+/* пока не знаю, как сделать scroll-able  */
+main {
+    width: fit-content;
+    margin: auto;
+}
+
+.input {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 5px 10px;
+    padding: 5px;
+    width: 500px;
+    border:rgba(95, 95, 241, 0.747) 3px;
+    border-radius: 5px;
+    border-style: solid;
+    
+}
+#input__text {
+    width: 250px;
+    height: 15px;
+
+    padding: 5px;
+    border-radius: 2px;
+    border-style: solid;
+    border-color:  rgba(95, 95, 241, 0.747);
+}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+#input__send {
+    vertical-align: bottom;
+    padding: 5px;
+    text-align: center;
+    border-radius: 2px;
+    border-style: solid;
+    background-color: rgba(95, 95, 241, 0.747);
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#input__send:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+
+#input__geo {
+    padding: 5px;
+    text-align: center;
+    border-radius: 2px;
+    border-style: solid;
+    background-color: rgba(95, 95, 241, 0.747);
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#input__geo:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+
+.control {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 5px 10px;
+    padding: 5px;
+    width: 500px;
+    border:rgba(95, 95, 241, 0.747) 3px;
+    border-radius: 5px;
+    border-style: solid;
+}
+#control__connect {
+    vertical-align: bottom;
+    padding: 5px;
+    text-align: center;
+    border-radius: 2px;
+    border-style: solid;
+    background-color: rgba(95, 95, 241, 0.747);
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#control__connect:hover {
+        transform: scale(1.03);
+        transition: 0.3s;
+}
+
+#control__disconnect {
+    vertical-align: bottom;
+    padding: 5px;
+    text-align: center;
+    border-radius: 2px;
+    border-style: solid;
+    background-color: rgba(95, 95, 241, 0.747);
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#control__disconnect:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    overflow-y: auto;
+    margin: 5px 10px;
+    padding: 5px;
+    border:rgba(95, 95, 241, 0.747) 3px;
+    border-radius: 5px;
+    border-style: solid;
+    word-break: break-word;
+    overflow-wrap: break-word;
+
+}
+
+.chat p {
+    display: flex;
+    width: fit-content;
+    padding: 1px;
+    border:rgba(95, 95, 241, 0.747) 2px;
+    border-radius: 5px;
+    border-style: solid;
+
+}
+.chat p.id0 {
+    align-self: flex-start;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 255, 0);
+
+}
+.chat p.id1 {
+    align-self: flex-start;
+    background-color: rgb(247, 242, 178);
+    color: rgb(255, 0, 0);
+
+}
+.chat p.id2 {
+    align-self: flex-start;
+    background-color: rgb(255, 255, 255);
+
+}
+.chat p.id3 {
+    align-self: flex-end;
+    background-color: #6cec9354;
+}
